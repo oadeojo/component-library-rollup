@@ -9,7 +9,7 @@ import typescript from 'rollup-plugin-typescript2';
 
 import pkg from './package.json';
 
-const libraryName = 'componentLibrary',
+const libraryName = 'ComponentLibrary',
     globalLibs = {
         "classnames": "classnames",
         "react": "React"
