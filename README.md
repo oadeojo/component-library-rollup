@@ -7,6 +7,8 @@ This is essentially the same component Proof of Concept used at the [component-l
 ## Why Rollup?
 Firstly, it is the tool that [Facebook uses to build the React ecosystem](https://reactjs.org/blog/2017/12/15/improving-the-repository-infrastructure.html#migrating-to-rollup).  In actual usage, I have noticed between a 5-15x smaller bundle size vs Webpack without any degredation in functionality or speed.  It is also much easier to configure and maintain.
 
+Rollup is missing a few niceties like code-splitting that are targetted toward application bundling.  Webpack is still preferred for _*application*_ build workflows.  However, because of how it works and the small size of it's output, Rollup is ideal for imported libraries.
+
 ### Install for development
 ```
 git clone https://github.com/Spiffdog-Design/component-library-rollup.git
