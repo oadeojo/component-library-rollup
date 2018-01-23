@@ -1,0 +1,24 @@
+{
+  "name": "@spiffdog/component-library-rollup",
+  "version": "0.0.0-alpha.11",
+  "description": "Rethinking the Component Library using Rollup.",
+  "main": "componentLibrary.js",
+  "module": "componentLibrary.module.js",
+  "homepage": "https://github.com/Spiffdog-Design/component-library-rollup#readme",
+  "author": "Tim Goyer <tim.goyer@gmail.com> (@randomloser)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Spiffdog-Design/component-library-rollup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Spiffdog-Design/component-library-rollup/issues"
+  },
+  "dependencies": {
+    "@types/classnames": "^2.2.3",
+    "@types/react": "^16.0.34",
+    "classnames": "^2.2.5",
+    "react": "^16.2.0"
+  },
+  "private": false
+}
