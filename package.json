@@ -19,7 +19,7 @@
         "build": "yarn build:clean; rollup -c",
         "build:clean": "rm -rf ./dist; mkdir ./dist",
         "dev": "yarn build; yarn watch",
-        "publish": "yarn build; cd ./dist; yarn publish --access=public",
+        "dist": "yarn build; cd ./dist; yarn publish --access=public",
         "serve": "http-server ./dist",
         "watch": "chokidar 'src/**/*.ts' 'src/**/*.tsx' -c \"yarn build\""
     },
